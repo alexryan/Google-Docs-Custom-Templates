@@ -56,4 +56,4 @@ In Template.html:
 5.  **Authorize the Script:** Reload the Google Doc. You will be prompted to authorize the script. Grant the necessary permissions.
 6.  **Use in Any Google Doc:** The "Template" menu will now be available in all your Google Docs.
 
-**Note:** This script uses `HtmlService` to create the template selection dialog, providing a more reliable and customizable user interface than the basic `Ui` service.
+**Note:** This script uses `HtmlService` to create the template selection dialog and embeds the template content directly within the `Code.gs` file as multi-line strings. This approach avoids complex permissions issues and provides a reliable way to apply simple templates consisting of "Heading 2" elements and horizontal lines.
