@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+</head>
+<body>
+  <button onclick="selectTemplate('template:story')">Story Template</button><br><br>
+  <button onclick="selectTemplate('template:ai')">AI Template</button>
+
+  <script>
+    function selectTemplate(templateName) {
+      google.script.run.templateSelected(templateName);
+      google.script.host.close();
+    }
+  </script>
+</body>
+</html>
