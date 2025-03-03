@@ -40,10 +40,12 @@ function showTemplateDialog() {
   };
   // ... rest of the function ...
 }
+```
 
 In Template.html:
-
+```html
 <button onclick="selectTemplate('template:my-new-template')">My New Template</button>
+```
 
 ### 3. Install the Google Apps Script and Make it Available in All Google Docs
 
